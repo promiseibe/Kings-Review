@@ -1,0 +1,63 @@
+form {
+   
+   margin: auto; 
+   display: block;
+}
+.form-input {
+   border: none;
+   background-color: rgb(216, 245, 255);
+   width: 100%;
+   margin-top: 20px;
+   transition: all 3s;
+
+
+
+}
+.form-input:hover {
+  border: 1px solid lightgray;
+  background-color:blanchedalmond;
+
+}
+::placeholder {
+    color: #c0bebe; /* Change the color of the placeholder text */
+font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.8rem;
+    /* Make the placeholder text italic */
+    /* You can add more styles as needed */
+}
+
+.custom-overlays {
+  background-color: blue;
+}
+.gradient-overlays {
+background-color: blue;
+}
+
+.submit {
+  background-color: #d46a1f; 
+  color: white; 
+  border-radius: 10px; 
+  margin: auto; 
+  padding: 10px; 
+  text-align: center;
+  margin-top: 10px;
+  width: 100px;
+}
+
+.submit:hover {
+  background-color: #9c5725;
+}
+/* styling banners */
+.blog-banners  h1 {
+color: white;
+text-align: center;
+
+}
+.page-title {
+  padding: 200px;
+}
+.amount {
+  font-weight: 700;
+  margin-left: 50px;
+
+}
