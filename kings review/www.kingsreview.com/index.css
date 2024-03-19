@@ -9,17 +9,20 @@ form {
    width: 100%;
    margin-top: 20px;
    transition: all 3s;
+   box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
+   color: black;
+   padding: 5px;
 
 
 
 }
 .form-input:hover {
   border: 1px solid lightgray;
-  background-color:blanchedalmond;
+
 
 }
 ::placeholder {
-    color: #c0bebe; /* Change the color of the placeholder text */
+   
 font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 0.8rem;
     /* Make the placeholder text italic */
