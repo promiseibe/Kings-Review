@@ -35,9 +35,13 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 .gradient-overlays {
 background-color: blue;
 }
+.paragraph {
+  color: white;
+  text-align: center;
+}
 
 .submit {
-  background-color: #d46a1f; 
+  background-color: #2a2781; 
   color: white; 
   border-radius: 10px; 
   margin: auto; 
@@ -48,7 +52,7 @@ background-color: blue;
 }
 
 .submit:hover {
-  background-color: #9c5725;
+  background-color: #4775ad;
 }
 /* styling banners */
 .blog-banners  h1 {
@@ -73,6 +77,15 @@ text-align: center;
     text-align: left;
     gap: 12;
 
+}
+.background-style {
+  border-bottom-left-radius: 30%;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  height: 90vh; 
+  background-position: top; 
+  background-color: rgb(4, 16, 48);
+  box-shadow: 3px 3px 3px 3px rgb(0,0,0,0.2);
 }
 
 /* Media screen */
